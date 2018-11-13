@@ -1,0 +1,8 @@
+slepp 1
+echo começando a cópia
+sudo cp -r /home/diogo/Downloads /Backup
+sudo cp -r /home/diogo/Documentos /Backup
+sudo cp -r /home/diogo/Área\ de\ Trabalho /Backup
+sudo cp -r /home/diogo/Imagens /Backup
+slepp 1
+echo finalizada a cópia

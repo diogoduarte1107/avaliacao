@@ -1,0 +1,17 @@
+op=sim
+foto="foto"
+pdf="pdf"
+
+echo digite o link desejado
+read link 
+
+echo deseja fazer download do link?
+read opcao
+
+if test "$opcao" = "sim"
+then
+wget -c $link
+echo fazendo o download..
+wget link
+fi
+
